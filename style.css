@@ -2,42 +2,25 @@
 
 :root {
   /* Color */
-
   --color-white: #ffffff;
-
   --color-light-white: #eeeeee;
-
   --color-dark-white: #bdbdbd;
-
   --color-pink: #fe918d;
-
   --color-dark-pink: #ff6863;
-
   --color-dark-grey: #4d4d4d;
-
   --color-grey: #616161;
-
   --color-light-grey: #7c7979;
-
   --color-blue: #73aace;
-
   --color-yellow: #fff7d1;
-
   --color-orange: #feb546;
-
   --color-black: #000000;
 
   /* Font size */
   --Size-border-radius: 4px;
-
   --font-large: 48px;
-
   --font-medium: 28px;
-
   --font-regular: 18px;
-
   --font-small: 16px;
-
   --font-micro: 14px;
 
   /* Font weight */
@@ -186,6 +169,10 @@ p {
 .section {
   padding: 50px;
   text-align: center;
+  margin: auto;
+}
+
+.section__container {
   max-width: 1200px;
   margin: auto;
 }
@@ -245,4 +232,22 @@ p {
 
 .job__period {
   font-size: var(--font-micro);
+}
+
+/* Skill */
+
+#skill {
+  background-color: var(--color-yellow);
+}
+
+.skillset {
+  display: flex;
+}
+
+.skillset__left {
+  flex-basis: 60%;
+}
+
+.skillset__right {
+  flex-basis: 40%;
 }
