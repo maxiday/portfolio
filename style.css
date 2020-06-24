@@ -71,11 +71,8 @@ button {
 
 h1 {
   font-size: var(--font-large);
-
   font-weight: var(--weight-bold);
-
   color: var(--color-black);
-
   margin: 16px 0px;
 }
 
@@ -110,6 +107,7 @@ p {
   padding: 16px;
   background-color: transparent;
   transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
 }
 
 #navbar.navbar--dark {
