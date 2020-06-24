@@ -45,23 +45,25 @@
     </nav>
 
     <!-- Home -->
-    <section class="home">
-      <img
-        src="imgs/profile.png"
-        alt="Daniel's portfolio photo"
-        class="home__avatar"
-      />
-      <h1 class="home__title">Hello, <br />I'm Dream codeer</h1>
-      <h2 class="home__description">
-        디자인할수있는 프론트엔드 개발자
-      </h2>
-      <button class="home__contact">CONTACT ME</button>
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="imgs/profile.png"
+          alt="성장하는 마케터입니다"
+          class="home__avatar"
+        />
+        <h1 class="home__title">안녕하세요 <br />만나서 반갑습니다</h1>
+        <h2 class="home__description">
+          성장하는 마케터입니다
+        </h2>
+        <button class="home__contact">CONTACT ME</button>
+      </div>
     </section>
 
     <!-- About -->
     <section id="about" class="section section__container">
       <h1>About me</h1>
-      <p>안녕하세요 비전공자입니다</p>
+      <p>그로스마케터</p>
       <div class="about__majors">
         <div class="major">
           <div class="major__icon">
@@ -171,23 +173,26 @@
         <h1>My work</h1>
         <h3>projects</h3>
         <div class="work__categories">
-          <button class="category__btn active">
+          <button class="category__btn active" data-filter="*">
             All <span class="category__count">8</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="front-end">
             Front-end<span class="category__count">3</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="back-end">
             Back-end<span class="category__count">3</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="mobile">
             Mobile<span class="category__count">2</span>
           </button>
         </div>
-
         <div class="work__projects">
-          <a href="hanalrim.tistory.com" class="project" target="blank">
-            <img src="imgs/projects/navbar-200518-191508.png" alt="Youtube" />
+          <a href="" class="project" target="blank" data-type="front-end">
+            <img
+              src="imgs/projects/navbar-200518-191508.png"
+              alt="Youtube"
+              class="project__img"
+            />
             <div class="project__description">
               <h3>Youtube Site</h3>
               <span>Clone coding with html and css</span>
@@ -289,5 +294,10 @@
       </div>
       <p class="contact__rights">2020 choi - All right reserved</p>
     </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
   </body>
 </html>
