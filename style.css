@@ -536,14 +536,14 @@ p {
   #navbar.navbar--dark {
     padding: 16px;
   }
-  .navbar__manu {
+  .navbar__menu {
     flex-direction: column;
     text-align: center;
     width: 100%;
     display: none;
   }
 
-  .navbar__manu.open {
+  .navbar__menu.open {
     display: block;
   }
 
