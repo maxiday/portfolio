@@ -239,7 +239,7 @@ p {
 
 .job__name,
 .job__period {
-  color: var(--color-light-grey);
+  color: var(--color-black);
 }
 
 .job__name {
