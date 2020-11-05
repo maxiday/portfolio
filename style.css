@@ -191,10 +191,6 @@ p {
 }
 
 /* About */
-
-#about{
-  background-color: var(--color-yellow);
-}
 .about__majors {
   display: flex;
   justify-content: space-between;
